@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 var cutsRouter = require('./routes/cuts')
 var app = express();
 
-var port =3000
+var port = process.env.PORT || 3000
 
 const jwt = require('jsonwebtoken')
 
@@ -77,8 +77,8 @@ app.all('*', (req, res, next) => {
 // }
 
 
-app.listen(80, () => {
-  console.log('CORS-enabled web server listening on port 80')
+app.listen(8090, () => {
+  console.log('CORS-enabled web server listening on port 8090')
 })
 
 module.exports = app;
