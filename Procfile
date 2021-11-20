@@ -1,1 +1,1 @@
-web: node app.jskllk
+web: node app.js
