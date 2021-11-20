@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 var cutsRouter = require('./routes/cuts')
 var app = express();
 
-var port = process.env.PORT || 3000
+var port = process.env.PORT || 3001
 
 const jwt = require('jsonwebtoken')
 
