@@ -28,6 +28,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "uglify-js": "^3.14.3",
     "uglifyjs-webpack-plugin": "^2.2.0"
   }
 }
