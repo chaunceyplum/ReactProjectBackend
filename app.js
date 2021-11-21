@@ -77,7 +77,7 @@ app.all('*', (req, res, next) => {
 // }
 
 
-app.listen(8090, () => {
+app.listen(8090,'0.0.0.0', () => {
   console.log(`CORS-enabled web server listening on port ${process.env.PORT}`)
 })
 
