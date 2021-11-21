@@ -7,7 +7,6 @@
     "npm": "8.0.0"
   },
   "scripts": {
-    "postinstall": "npm run build",
     "start": "nodemon app.js"
   },
   "dependencies": {
