@@ -7,7 +7,7 @@
     "npm": "8.0.0"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon --exec babel-node ./app.js"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
