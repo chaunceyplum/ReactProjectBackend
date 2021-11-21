@@ -12,7 +12,7 @@ var app = express();
 var port = process.env.PORT || 3001
 
 const jwt = require('jsonwebtoken')
-
+require(`dotenv`).config()
 
 
 // view engine setup
@@ -78,7 +78,7 @@ app.all('*', (req, res, next) => {
 
 
 app.listen(8090, () => {
-  console.log('CORS-enabled web server listening on port 8090')
+  console.log(`CORS-enabled web server listening on port ${process.env.PORT}`)
 })
 
 module.exports = app;
